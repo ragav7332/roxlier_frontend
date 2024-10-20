@@ -574,6 +574,7 @@ function TransactionTable() {
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12} md={6}>
               <ResponsiveContainer width="100%" height={300}>
+              <h3 style={{ justifyContent: "center" }}>Bar-Chart</h3>
                 <BarChart data={barChartData}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="label" />
