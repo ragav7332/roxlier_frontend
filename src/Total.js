@@ -352,7 +352,7 @@ function TransactionTable() {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch(`${process.env.ROXLIER_BACKEND_URL}transactions`);
+        const response = await fetch(`${process.env.ROXLIER_BACKEND_URL}/transactions`);
         const data = await response.json();
         setTransactions(data);
         setFilteredTransactions(data);
