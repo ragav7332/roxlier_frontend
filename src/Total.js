@@ -348,11 +348,13 @@ function TransactionTable() {
   const [page, setPage] = useState(1);
   const [perPage] = useState(10);
 
+  const ROXLIER_BACKEND_URL='https://roxlier-backend.onrender.com';
+
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch(`${process.env.ROXLIER_BACKEND_URL}/transactions`);
+        const response = await fetch(`${ROXLIER_BACKEND_URL}/transactions`);
         const data = await response.json();
         setTransactions(data);
         setFilteredTransactions(data);
