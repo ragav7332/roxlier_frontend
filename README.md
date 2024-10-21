@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here Deployed URL attached
+https://roxlier-frontend-react.netlify.app/
+
+For Backend source Attached
+https://github.com/ragav7332/Roxlier_backend
+
 
 ## Available Scripts
 
